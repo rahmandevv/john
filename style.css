@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Heebo;
+}
+.container {
+  max-width: 100%;
+  width: 80%;
+  margin-inline: auto;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+#header {
+  padding-block: 30px;
+}
+.header {
+  display: flex;
+  justify-content: end;
+}
+.header-text {
+  display: flex;
+  gap: 30px;
+}
+.header ion-icon {
+  font-size: 25px;
+  font-weight: 600;
+  display: none;
+  justify-content: flex-end;
+}
+
+#section {
+  padding-block: 50px;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-img img {
+  box-shadow: 0px 8px 10px 0px #bbe1faab;
+  border-radius: 50%;
+}
+.section-text h1 {
+  width: 500px;
+  /* height: 100px; */
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+}
+.section-text p {
+  width: 490px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  padding-block: 40px;
+}
+.section-text button {
+  width: 230px;
+  height: 47px;
+  border-radius: 2px;
+  color: white;
+  background: #ff6464;
+  border: none;
+}
+
+#none {
+  background: #edf7fa;
+  padding-block: 40px;
+}
+.none {
+  display: flex;
+  flex-direction: column;
+}
+.block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 30px;
+}
+.none-n {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.none-box {
+  background: white;
+  width: 350px;
+  height: 190px;
+  border-radius: 4px;
+  padding: 20px;
+}
+.none-box h1 {
+  width: 325px;
+
+  /* width: 374px; */
+  /* height: 85px; */
+  line-height: 38px;
+}
+.none-box p {
+  width: 325px;
+
+  /* width: 368px; */
+  line-height: 23px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#works {
+  padding-block: 30px;
+}
+.box {
+  padding-block: 30px;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  margin: 20px;
+  gap: 30px;
+}
+.box img {
+  max-width: 250px;
+}
+
+.box-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-text p {
+  width: 590px;
+  font-size: 16px;
+}
+
+.box button {
+  color: #fff;
+  border: none;
+  padding: 7px;
+  border-radius: 20px;
+  background: #142850;
+}
+#footer {
+  padding: 40px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon ion-icon {
+  width: 40px;
+  font-weight: 800;
+  font-size: 30px;
+}

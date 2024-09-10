@@ -1,0 +1,142 @@
+@media (max-width: 1000px) {
+  .none-box {
+    width: 325px;
+  }
+  .none-box h1 {
+    width: 320px;
+  }
+  .none-box p {
+    width: 320px;
+  }
+  .box-text p {
+    width: 480px;
+  }
+}
+
+@media (max-width: 930px) {
+  .none-box {
+    width: 300px;
+  }
+  .none-box h1 {
+    width: 300px;
+  }
+  .none-box p {
+    width: 300px;
+  }
+  .section-text p {
+    width: 440px;
+  }
+  .section-text h1 {
+    width: 440px;
+  }
+  .box-text p {
+    width: 420px;
+  }
+}
+
+@media (max-width: 900px) {
+  .none-box {
+    width: 275px;
+  }
+  .none-box h1 {
+    width: 250px;
+  }
+  .none-box p {
+    width: 265px;
+  }
+  .section-text h1 {
+    width: 300px;
+  }
+  .section-text p {
+    width: 407px;
+  }
+  .box-text p {
+    width: 400px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 830px) {
+  .none-box {
+    width: 250px;
+    height: 210px;
+  }
+  .none-box h1 {
+    width: 235px;
+  }
+  .none-box p {
+    width: 230px;
+  }
+  .section-text p {
+    width: 320px;
+  }
+  .box-text p {
+    width: 340px;
+  }
+}
+
+@media (max-width: 800px) {
+  .section-text p {
+    width: 300px;
+  }
+  .none-box {
+    width: 230px;
+  }
+  .box-text p {
+    width: 300px;
+  }
+}
+
+@media (max-width: 750px) {
+  .section {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+  }
+  .section-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .none-n {
+    justify-content: center;
+  }
+
+  .none-n a {
+    display: none;
+  }
+  .block {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .works h3 {
+    display: flex;
+    justify-content: center;
+  }
+  .box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-text {
+    display: none;
+  }
+  .header ion-icon {
+    display: flex;
+  }
+}
+
+/* @media (max-width: 730px) {
+  .section-text h1 {
+    width: 275px;
+  }
+  .section-text p {
+    width: 290px;
+  }
+  .none-box {
+    width: 225px;
+  }
+  .box-text p {
+    width: 245px;
+  }
+} */
